@@ -1,5 +1,2 @@
-altair==5.0.1
-
-streamlit==1.25.0
-
-
+streamlit==1.12.0
+altair==4.0
