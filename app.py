@@ -2,7 +2,6 @@ import streamlit as st
 import io
 import base64
 from PIL import Image, ImageDraw, ImageFont
-import yagmail
 import smtplib
 from pathlib import Path
 import base64
