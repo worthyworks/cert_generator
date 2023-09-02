@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 import smtplib
 from pathlib import Path
 from email.mime.text import MIMEText
-from decouple import config
+
 
 This_DIR = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 ASSETS_DIR =This_DIR / "assets"
