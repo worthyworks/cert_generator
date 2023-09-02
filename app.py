@@ -4,7 +4,6 @@ import base64
 from PIL import Image, ImageDraw, ImageFont
 import smtplib
 from pathlib import Path
-import base64
 from email.mime.text import MIMEText
 from decouple import config
 
@@ -18,12 +17,12 @@ PRODUCT_NAME = "Certificate Generating Software"
 
 PRODUCT_DESCRIPTION = """
 This app is tailored to generate certificates for individuals who have completed participation in a suitable event.
-Here are the features that you will find irresistable:
-- Displays on screen so errors can be corrected
+Here are the features that you will find irresistible:
+- Displays on-screen so errors can be corrected
 - Does not store information online
 - Convenient and quick
 - Easy to navigate
-- Download, email or print off as required
+- Download, email, or print off as required
 ***This is the new system for continuing professional development support. Why wait any longer?***
 """
 def load_css_file(css_file_path):
